@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figma to Html</title>
+  </head>
+
+  <body>
+
+    <header>
+      <!--Logo-->
+      <div>
+        <img 
+        style="max-width: 150px;"
+        src="assets/logo/logo.png" 
+        alt="logo"
+        >
+      </div>
+
+      <!--Burger menu for mobile size-->
+      <button 
+      class="burger" 
+      aria-label="Open menu">
+        <svg
+        class="burger-icon"
+        width="28"
+        height="28"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M3 6h18" />
+          <path d="M3 12h18" />
+          <path d="M3 18h18" />
+        </svg>
+      </button>
+
+      <!--Navigations-->
+      <nav class="heading-nav"> 
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">Feature</a>
+        <a href="#">Product</a>
+        <a href="#">Testimonial</a>
+        <a href="#">FAQ</a>
+
+        <div 
+        class="burger-registration">
+          <button class="loginBtn">
+            Login
+          </button>
+
+          <button class="regBtn">
+            Sign up
+          </button>
+        </div>
+
+      </nav>
+
+      <!--Registration-->
+      <div 
+      class="reg-box">
+        <button class="loginBtn">
+          Login
+        </button>
+
+        <button class="regBtn">
+          Sign up
+        </button>
+      </div>
+    </header>
+
+    <main>
+
+      <!--Section 1-->
+      <section
+      class="section-one"
+      >
+        <!--text-->
+        <div>
+          <div
+          class="hero-text"
+          >
+            <h1>Lessons and insights</h1>
+
+            <h2>from 8 years</h2>
+
+            <p>
+              Where to grow your business as a photographer: site or social media?
+            </p>
+          </div>
+
+          <button class="reg-desktop">
+            Register
+          </button>
+        </div>
+
+        <!--Image-->
+        <img 
+        src="assets/hero-image.png" 
+        alt="hero-image"
+        >
+
+        <button class="reg-mobile">
+            Register
+          </button>
+
+      </section>
+
+      <!--Section 2-->
+      <section
+      class="section-two"
+      >
+        <div>
+          <h1>
+            Our Clients
+          </h1>
+
+          <p style="color: #717171;">
+            We have been working with some Fortune 500+ clients
+          </p>
+        </div>
+
+        <div class="image-box">
+          <img src="assets/logo/logo2.png" alt="logo2" class="logo-2" >
+          <img src="assets/logo/logo3.png" alt="logo2">
+          <img src="assets/logo/logo4.png" alt="logo2">
+          <img src="assets/logo/logo5.png" alt="logo2">
+          <img src="assets/logo/logo6.png" alt="logo2">
+          <img src="assets/logo/logo7.png" alt="logo2">
+          <img src="assets/logo/logo4.png" alt="logo2">
+        </div>
+      </section>
+
+      <!--Section 3-->
+      <section
+      class="section-three"
+      >
+        <div class="half-one">
+          <h1>
+            Manage your entire community <br>
+            in a single system
+          </h1>
+
+          <p>Who is Nextcent suitable for?</p>
+        </div>
+
+
+        <div class="half-two">
+
+          <div 
+          class="feature-card">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+            </svg>
+
+            <span class="green-box"></span>
+
+            <h3>Membership <br>Organisations</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+          
+
+          <div class="feature-card">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+            </svg>
+            
+            <span class="green-box"></span>
+            <h3>National <br> Associations</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+
+          <div class="feature-card">
+            <span class="hand-group">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+            </span>
+
+            <span class="green-box"></span>
+            <h3>Clubs And <br> Groups</h3>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Section 4-->
+      <section
+      class="section-four"
+      >
+        <img 
+        src="assets/second image.png" 
+        alt="second-image">
+
+        <div>
+          <div class="box-4">
+             <h3>
+              The unseen of spending three <br> years at Pixelgrade
+            </h3>
+
+            <p style="color: #717171; max-width: 700px;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
+            </p>
+          </div>
+
+          <button>
+            Learn More
+          </button>
+        </div>
+      </section>
+
+      <!--Section 5-->
+      <section 
+      class="section-five"
+      >
+        <div class="text-container">
+          <h2 class="sf-heading">Helping a local </h2>
+          <h3>business reinvent itself</h3>
+          <p>We reached here with our hard work and dedication</p>
+        </div>
+
+
+        <div class="stats">
+
+          <span class="statBox">
+            <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="group-icon">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+
+            <div>
+              <h2 class="numbers">2,245,341</h2>
+              <p>Members</p>
+            </div>
+          </span>
+
+          <span class="statBox">
+
+            <span class="hand-group-2">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+              </svg>
+            </span>
+            
+            <div>
+              <h2 class="numbers">46,328</h2>
+              <p>Clubs</p>
+            </div>
+            
+          </span>
+
+          <span class="statBox">
+            <div>
+              <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="32" height="32" 
+              fill="#4CAF4F" 
+              viewBox="0 0 256 256">
+                <path d="M56,76a60,60,0,0,1,120,0,8,8,0,0,1-16,0,44,44,0,0,0-88,0,8,8,0,1,1-16,0Zm140,44a27.9,27.9,0,0,0-13.36,3.39A28,28,0,0,0,144,106.7V76a28,28,0,0,0-56,0v80l-3.82-6.13a28,28,0,0,0-48.41,28.17l29.32,50A8,8,0,1,0,78.89,220L49.6,170a12,12,0,1,1,20.78-12l.14.23,18.68,30A8,8,0,0,0,104,184V76a12,12,0,0,1,24,0v68a8,8,0,1,0,16,0V132a12,12,0,0,1,24,0v20a8,8,0,0,0,16,0v-4a12,12,0,0,1,24,0v36c0,21.61-7.1,36.3-7.16,36.42a8,8,0,0,0,3.58,10.73A7.9,7.9,0,0,0,208,232a8,8,0,0,0,7.16-4.42c.37-.73,8.85-18,8.85-43.58V148A28,28,0,0,0,196,120Z"></path>
+              </svg>
+            </div>
+
+            <div>
+              <h2 class="numbers">828,867</h2>
+              <p>Event Bookings</p>
+            </div>
+          </span>
+
+          <span class="statBox">
+            
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+              </svg>
+            </div>
+
+            <div>
+              <h2 class="numbers">1,926,436</h2>
+              <p>Payments</p>
+            </div>
+          </span>
+
+        </div>
+      </section>
+
+      <!--Section 6-->
+      <section 
+      class="section-six">
+        <img 
+        src="assets/third image.png" 
+        alt="">
+
+        <div>
+          <span>
+            <h2>
+              How to design your site footer like <br> we did
+            </h2>
+
+            <p>
+              Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt 
+              molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at 
+              libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta 
+              nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer 
+              in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi 
+              ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+            </p>
+          </span>
+
+          <button>
+            Learn More
+          </button>
+        </div>
+      </section>
+
+      <!--Section 7-->
+      <section
+      class="section-seven"
+      >
+        <img 
+        class="tesla-img"
+        src="assets/tesla.png" 
+        alt="tesla">
+
+        <div class="box-seven">
+          <p>
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. 
+            Suspendisse cursus tellus sed augue ultrices, quis tristique nulla 
+            sodales. Suspendisse eget lorem eu turpis vestibulum pretium. 
+            Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat 
+            ante feugiat eget. Quisque vulputate odio neque, eget efficitur 
+            libero condimentum id. Curabitur id nibh id sem dignissim finibus 
+            ac sit amet magna.
+          </p>
+
+          <h2 class="random-name">
+            Tim Smith
+          </h2>
+
+          <p style="color: #89939E">
+            British Dragon Boat Racing Association
+          </p>
+
+          <div class="brands">
+
+            <span class="brand-icons">
+              <img src="assets/logo/logo2.png" alt="logo-2" style="width: 3.2rem; height: 3.2rem;">
+              <img src="assets/logo/logo3.png" alt="logo-2">
+              <img src="assets/logo/logo4.png" alt="logo-2">
+              <img src="assets/logo/logo5.png" alt="logo-2">
+              <img src="assets/logo/logo6.png" alt="logo-2">
+              <img src="assets/logo/logo7.png" alt="logo-2">
+            </span>
+
+            <button class="brands-button">
+              Meet all customers  →
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Section 8-->
+      <section class="section-eight">
+
+        <div class="first-box">
+          <h2>
+            Caring is the new marketing
+          </h2>
+
+          <p>
+            The Nexcent blog is the best place to read about the latest 
+            membership insights, trends and more. See who's joining the community, 
+            read about how our community are increasing their membership income and 
+            lot's more.
+          </p>
+        </div>
+
+        <div class="second-box">
+          <span style="position: relative;">
+            <div class="image-card"> 
+              <img 
+              src="assets/chinese-dude.png" 
+              alt="someone">
+            </div>
+
+
+            <div class="text-card">
+              <p>
+                Creating Streamlined Safeguarding Processes with OneRen
+              </p>
+
+              <button>
+                Readmore ➟
+              </button>
+            </div>
+          </span>
+
+
+          <span style="position: relative;">
+            <div class="image-card">
+              <img 
+              src="assets/workonPc.jpg" 
+              alt="PC">
+            </div>
+
+            <div class="text-card">
+              <p>
+                What are your safeguarding responsibilities and how can you manage them?
+              </p>
+
+              <button>
+                Readmore ➟
+              </button>
+            </div>
+          </span>
+        
+
+          <span style="position: relative;">
+            <div class="image-card">
+              <img 
+              src="assets/workPc.jpg" 
+              alt="pcImage">
+            </div>
+
+            <div class="text-card">
+              <p>
+                Revamping the Membership Model with Triathlon Australia
+              </p>
+
+              <button>
+                Readmore ➟
+              </button>
+            </div>
+          </span>
+          
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <div class="footer-intro">
+        <h1>
+          Pellentesque suscipit <br>
+          fringilla libero eu.
+        </h1>
+
+        <button>
+          Get a Demo  →
+        </button>
+      </div>
+
+      <div 
+      class="footer-links">
+        <div class="Copyright">
+          <img 
+          style="max-width: 230px;"
+          src="assets/logo/logo-black.png" 
+          alt="footer-logo"
+          >
+          
+          <div class="copy-links">
+            <p class="copyright-text">
+              Copyright © 2020 Nexcent ltd. <br>
+              All rights reserved
+            </p>
+
+            <ul 
+            class="icons"
+            style="display: flex; flex-direction: row;">
+              <li 
+              class="social-icons">
+                <svg 
+                role="img" 
+                viewBox="0 0 25 25" 
+                style="padding: 3px;"
+                xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                </svg>
+              </li>
+
+              <li
+              class="social-icons"
+              >
+                <svg 
+                role="img"
+                style="padding: 2px;"
+                viewBox="0 0 24 24" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <title>Facebook</title>
+                  <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+                </svg>
+              </li>
+
+              <li 
+              class="social-icons"
+              >
+                <svg 
+                role="img" 
+                style="padding: 3px;"
+                viewBox="0 0 24 24" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <title>X</title>
+                  <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/>
+                </svg>
+              </li>
+
+              <li 
+              class="social-icons"
+              >
+                <svg 
+                role="img" 
+                style="padding: 3px;"
+                viewBox="0 0 24 24" 
+                xmlns="http://www.w3.org/2000/svg">
+                  <title>YouTube</title>
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="links">
+          <div>
+            <h2>Company</h2>
+            <ul>
+              <li>About us</li>
+              <li>Blog</li>
+              <li>Contact us</li>
+              <li>Pricing</li>
+              <li>Testimonials</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 class="support">Support</h2>
+            <ul>
+              <li>Help center</li>
+              <li>Terms of service</li>
+              <li>Legal</li>
+              <li>Pricay policy</li>
+              <li>Status</li>
+            </ul>
+          </div>
+
+          <div 
+          class="final-line">
+            <h2>Stay up to date</h2>
+
+            <input 
+            class="inputBox"
+            type="text"
+            placeholder="Your email address"
+            >
+
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+            stroke="currentColor" 
+            class="size-6">
+              <path 
+              stroke-linecap="round" 
+              stroke-linejoin="round" 
+              d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+            </svg>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
